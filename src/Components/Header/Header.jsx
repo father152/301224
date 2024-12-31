@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "./logo.jpg";
+import logo from "./—Pngtree—flying cup of coffee with_5057949.png";
 import "./header.css";
 
 function Header() {
