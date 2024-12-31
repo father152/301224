@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { Layout } from "./Components/Layout/Layout";
 import { Main } from "./Components/Main/Main";
 import { Catalogue } from "./Components/Header/Catalogue/Catalogue";
@@ -8,7 +8,9 @@ import { Contact } from "./Components/Header/Contact/Contact";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
+    <div className="app">
+
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Main />} />
@@ -17,8 +19,9 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
-    </>
-  )
+    </div>
+    </BrowserRouter>
+  );
 }
 
 export default App;

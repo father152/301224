@@ -2,8 +2,26 @@
    width: 100%;
    height: 100px;
    display: flex;
-
+justify-content: space-around;
 }
+
 .header img{
     width: 100px;
+}
+
+.title {
+    display: flex;
+}
+.title-item {
+    display: flex;
+    align-items: center;
+}
+.title-item li{
+list-style: none;
+
+}
+.title-item a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 100px;
 }
