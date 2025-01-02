@@ -1,0 +1,35 @@
+.main {
+    width: 100%;
+    display: flex;
+}
+.container-main {
+    width: 95%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+}
+h2{
+    font-family: Arial;
+    font-size: 35px;
+    text-shadow: 10px 10px 10px white;
+}
+.container-main p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+padding: 0 5px 0 5px;
+text-align: justify;
+text-indent: 20px;
+}
+.container-left {
+    width: 20%;
+   
+    
+}
+.container-center {
+    width: 60%;
+    
+}
+.container-right {
+    width: 20%;
+    
+}
