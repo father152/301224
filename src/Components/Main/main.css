@@ -8,28 +8,29 @@
     margin: 0 auto;
     display: flex;
 }
-h2{
-    font-family: Arial;
-    font-size: 35px;
+
+h2 {
+    font-family: "Poiret One", serif;
+    font-size: 45px;
+    font-weight: 800;
     text-shadow: 10px 10px 10px white;
+
 }
-.container-main p{
-font-family: Arial, Helvetica, sans-serif;
-font-size: 15px;
-padding: 0 5px 0 5px;
-text-align: justify;
-text-indent: 20px;
+
+  
+.container-main p {
+    font-family: "Poiret One", serif;
+    font-size: 15px;
+    padding: 0 5px 0 5px;
+    text-align: justify;
+    text-indent: 20px;
 }
 .container-left {
     width: 20%;
-   
-    
 }
 .container-center {
     width: 60%;
-    
 }
 .container-right {
     width: 20%;
-    
 }

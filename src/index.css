@@ -3,4 +3,9 @@ body {
   background-image: url(./Components/Image/pexels-kovyrina-937980.jpg);
  
 }
+.poiret-one-regular {
+  font-family: "Poiret One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
