@@ -1,0 +1,17 @@
+.foto{
+    width: 90%;
+    height: 100%;
+    display: flex;
+margin: 0 auto;
+align-items: center;
+
+
+}
+.foto img{
+    object-fit: cover;
+   margin: 0 auto;
+}
+.back img{
+    margin: 0 auto;
+    
+}
