@@ -4,9 +4,21 @@
     border: 1px solid white;
 }
 
+.slick-slide img {
+    display: flex;
+    text-align: center;
+    border: 3px solid white;
+    margin: 0 auto;
+}
+.slick-prev:before{
+    padding-left: 100px;
+    
+}
 
 
-
+.slick-next {
+    right: 70px;
+}
 .women img {
     width: 40%;
 }
