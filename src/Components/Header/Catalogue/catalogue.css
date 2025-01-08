@@ -1,7 +1,7 @@
 .catalogue{
     width: 90%;
     margin: 0 auto;
-    border: 1px solid white;
+    
 }
 
 .slick-slide img {
@@ -10,15 +10,17 @@
     border: 3px solid white;
     margin: 0 auto;
 }
-.slick-prev:before{
-    padding-left: 100px;
-    
+p{
+    width: 90%;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 6px;
+    font-family: "Poiret One", serif;
+    font-size: 18px;
 }
 
 
-.slick-next {
-    right: 70px;
-}
 .women img {
     width: 40%;
 }

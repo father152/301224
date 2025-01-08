@@ -1,4 +1,5 @@
 import React from 'react'
+import LoremIpsum from 'react-lorem-ipsum';
 import Slider from 'react-slick';
 
 
@@ -14,23 +15,29 @@ const Carousel = () => {
   
     return (
       <Slider {...settings}>
-        <div>
-          <img src='https://picsum.photos/id/78/900/600' alt='slide-1' />
+        <div className='photo-text'>
+          <img src='https://picsum.photos/id/78/1100/500' alt='slide-1' />
+          <p><LoremIpsum /></p>
         </div>
         <div>
-          <img src='https://picsum.photos/id/79/900/600' alt='slide-2' />
+          <img src='https://picsum.photos/id/79/1100/500' alt='slide-2' />
+          <p><LoremIpsum /></p>
         </div>
         <div>
-          <img src='https://picsum.photos/id/80/900/600' alt='slide-3' />
+          <img src='https://picsum.photos/id/80/1100/500' alt='slide-3' />
+          <p><LoremIpsum /></p>
         </div>
         <div>
-          <img src='https://picsum.photos/id/60/900/600' alt='slide-1' />
+          <img src='https://picsum.photos/id/60/1100/500' alt='slide-1' />
+          <p><LoremIpsum /></p>
         </div>
         <div>
-          <img src='https://picsum.photos/id/65/900/600' alt='slide-2' />
+          <img src='https://picsum.photos/id/65/1100/500' alt='slide-2' />
+          <p><LoremIpsum /></p>
         </div>
         <div>
-          <img src='https://picsum.photos/id/66/900/600' alt='slide-3' />
+          <img src='https://picsum.photos/id/66/1100/500' alt='slide-3' />
+          <p><LoremIpsum /></p>
         </div>
       </Slider>
     );
