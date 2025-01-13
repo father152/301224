@@ -1,23 +1,6 @@
-.catalogue{
+.catalogue {
     width: 90%;
     margin: 0 auto;
-    
-}
-
-.slick-slide img {
-    display: flex;
-    text-align: center;
-    border: 3px solid white;
-    margin: 0 auto;
-}
-p{
-    width: 90%;
-    display: flex;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 6px;
-    font-family: "Poiret One", serif;
-    font-size: 18px;
 }
 
 

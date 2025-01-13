@@ -22,11 +22,11 @@ function Main() {
           <h2>CENTER</h2>
           <p>
             <LoremIpsum />
-            <img src="https://picsum.photos/id/50/700/200" alt=""></img>
+            <Link to="/foto"><img src="https://picsum.photos/id/89/225/100" alt=""></img></Link>
             <LoremIpsum />
-            <img src="https://picsum.photos/id/62/700/200" alt=""></img>
+            <Link to="/foto"><img src="https://picsum.photos/id/98/225/100" alt=""></img></Link>
             <LoremIpsum />
-            <img src="https://picsum.photos/id/65/700/200" alt=""></img>
+            <Link to="/foto"><img src="https://picsum.photos/id/23/225/100" alt=""></img></Link>
           </p>
         </div>
 
@@ -34,7 +34,7 @@ function Main() {
           <h2>RIGHT</h2>
           <p>
             <LoremIpsum />
-            <img src="https://picsum.photos/id/79/225/200" alt=""></img>
+            <Link to="/foto"><img src="https://picsum.photos/id/83/225/100" alt=""></img></Link>
             <LoremIpsum />
           </p>
         </div>
