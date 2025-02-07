@@ -8,7 +8,10 @@ function Catalogue() {
   return (
     <div className="catalogue">
       <h2>CATALOGUE</h2>
-      <div className="container-catalogue"></div>
+      <div className="container-catalogue">
+      
+      
+      </div>
     </div>
   );
 }

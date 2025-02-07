@@ -18,7 +18,7 @@ function Main() {
             <Link to="/foto"><img src="https://picsum.photos/id/77/225/200" alt=""></img></Link>
             <LoremIpsum />
             <Link to="/foto"><img src="https://picsum.photos/id/76/225/200" alt=""></img></Link>
-            <LoremIpsum />
+            
           </p>
         </div>
 
@@ -31,6 +31,8 @@ function Main() {
             <Link to="/"><img src="https://picsum.photos/id/98/225/100" alt=""></img></Link>
             <LoremIpsum />
             <Link to="/"><img src="https://picsum.photos/id/96/225/100" alt=""></img></Link>
+            <LoremIpsum />
+            <LoremIpsum />
           </p>
         </div>
 

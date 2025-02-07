@@ -1,0 +1,25 @@
+.contact {
+    width: 70%;
+    margin: 0 auto;
+   
+}
+.container-1_contact {
+ display: flex;
+ align-items: center;
+ margin-bottom: 20px;
+}
+.container-1_contact img{
+    width: 15%;
+    border-radius: 50%;
+}
+.position {
+    width: 20%;
+font-size: 20px;
+}
+.name {
+    width: 40%;
+    font-size: 30px;
+}
+.tel{
+    font-size: 20px;
+}
