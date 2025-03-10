@@ -20,6 +20,18 @@ function People() {
   function changeLanguage() {
     languageEng.style.display = "block";
   }
+
+  function draw() {
+    var canvas = document.getElementById("canvas");
+    if (canvas.getContext) {
+      var ctx = canvas.getContext("2d");
+  
+      ctx.fillRect(25, 25, 100, 100);
+      ctx.clearRect(45, 45, 60, 60);
+      ctx.strokeRect(50, 50, 50, 50);
+    }
+  }
+
   return (
     <div className="people">
       <Example />
@@ -32,24 +44,12 @@ function People() {
       <br></br>
       <br></br>
 
-      <input value={text} onChange={handleChange} />
-      <input value={text1} onChange={handleChange1} />
-      <p>You typed: {text}</p>
-      <p>You size: {text1}</p>
-      <div className="repit">
-        <p className="eng">
-          <LoremIpsum />
-        </p>
-        <p className="ukr">
-          Результати дивують, оскільки українці, які тікають від вторгнення
-          Росії в їхню країну, зазвичай можуть дістати захист і тимчасове
-          проживання в будь-якій країні ЄС. Їм також дозволено подорожувати в
-          межах Шенгенської зони для відпочинку", - зауважили журналісти.
-        </p>
-      </div>
-      <button onClick={changeLanguage}>eng</button>
-      <button onClick={changeLanguage}>ukr</button>
+      
       <br></br>
+      <br></br>
+      <canvas className="canvas" id="tutorial" width="150" height="150">
+    
+      </canvas>
     </div>
   );
 }

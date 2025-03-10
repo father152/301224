@@ -1,0 +1,30 @@
+.example{
+
+}
+h4#welcome{
+    font-size: 30px;
+
+}
+form.form-example {
+    display: table;
+  }
+  
+  div.form-example {
+    display: table-row;
+  }
+  
+  label,
+  input {
+    display: table-cell;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    padding-right: 10px;
+  }
+  h4{
+    color: rgb(245, 238, 238);
+  }
+  .visib{
+    display: none;
+  }
