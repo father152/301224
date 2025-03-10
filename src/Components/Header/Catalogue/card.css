@@ -1,0 +1,51 @@
+
+.container-catalogue{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+.card{
+    border: 0.5px solid rgb(47, 113, 151);
+    padding: 10px 10px 10px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(47, 113, 151);
+}
+.brand{
+    font-family: "Poiret One", serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+.name{
+    font-family: "Poiret One", serif;
+    font-size: 25px;
+    
+}
+.pic{
+    width: 50%;
+    border: 0.5px solid rgb(47, 113, 151);
+     border-radius: 20px;
+     margin: 15px 0;
+}
+.model{
+  font-family: "Poiret One", serif;
+    font-size: 20px;  
+}
+.cost{
+    font-family: "Poiret One", serif;
+    font-size: 20px;  
+    font-weight: 800;
+}
+
+
+.buy{
+    font-family: "Poiret One", serif;
+    font-size: 15px;
+    padding: 5px 15px;
+   border-radius: 10px;
+    
+}
+
+
+
+
+
